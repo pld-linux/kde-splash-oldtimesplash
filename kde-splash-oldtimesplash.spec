@@ -20,10 +20,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"Old Time Splash" KDE splash screen.
+A bit of "old styled" graphics for KDE splash may be a very good choice
+if you are bored with all those blue themes around.
 
 %description -l pl
-Ekran startowy KDE "Old Time Splash".
+Ekran startowy KDE "w starym stylu" mo¿e byæ bardzo dobrym wyborem je¿eli
+czujesz siê znudzony tymi wszystkimi motywami w niebieskich odcieniach.
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
