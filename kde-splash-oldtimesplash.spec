@@ -14,6 +14,7 @@ Source0:	http://www.kde-look.org/content/files/1214-oldtimesplash.zip
 Source1:	%{name}-Theme.rc
 Source2:	%{name}-Preview.png
 URL:		http://www.kde-look.org/content/show.php?content=1214
+BuildRequires:	unzip
 Provides:	kde-splash
 Requires:	kdebase-desktop >= 9:3.2.0
 BuildArch:	noarch
