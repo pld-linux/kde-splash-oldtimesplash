@@ -2,7 +2,7 @@
 %define		_splash		oldtimesplash
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	2
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A bit of "old styled" graphics for KDE splash may be a very good choice
 if you are bored with all those blue themes around.
 
-%description -l pl
-Ekran startowy KDE "w starym stylu" mo¿e byæ bardzo dobrym wyborem je¿eli
-czujesz siê znudzony tymi wszystkimi motywami w niebieskich odcieniach.
+%description -l pl.UTF-8
+Ekran startowy KDE "w starym stylu" moÅ¼e byÄ‡ bardzo dobrym wyborem jeÅ¼eli
+czujesz siÄ™ znudzony tymi wszystkimi motywami w niebieskich odcieniach.
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
