@@ -2,7 +2,7 @@
 %define		_splash		oldtimesplash
 
 Summary:	KDE splash screen
-Summary(pl.UTF-8):   Ekran startowy KDE
+Summary(pl.UTF-8):	Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	2
